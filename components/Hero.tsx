@@ -4,12 +4,12 @@ import { Button } from "./ui/button"
 
 const Hero = () => {
     return (
-        <section className="mx-10 mt-14 p-10">
-            <h1 className="text-4xl font-bold text-[var(--foreground)]">Ismail</h1>
+        <section className="w-full h-full flex flex-col justify-center items-start p-10">
+            <h1 className="text-4xl font-bold text-[var(--foreground)]">Ismail Haddad</h1>
             <p className="mt-4 text-lg text-[var(--muted-foreground)">Front-End Developer | Next.js & Tailwind Enthusiast</p>
             <div className="mt-6">
                 <Button
-                    className="mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-4 py-2 rounded-lg shadow hover:bg-indigo-600"
+                    // className="mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-4 py-2 rounded-lg shadow hover:bg-indigo-600"
                     asChild
                 >
                     <Link href='#projects' >
@@ -17,8 +17,9 @@ const Hero = () => {
                     </Link>
                 </Button>
                 <Button
-                    className="mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-4 py-2 rounded-lg shadow hover:bg-indigo-600"
+                    // className="mt-6 bg-[var(--primary)] text-[var(--primary-foreground)] px-4 py-2 rounded-lg shadow hover:bg-indigo-600"
                     asChild
+                    variant='link'
                 >
                     <Link href='#contact'>
                         Contact Me

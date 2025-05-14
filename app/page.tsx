@@ -11,17 +11,17 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300 p-6 space-y-10">
+      <Header />
       <section
         id='home'
-        className="w-full h-[700px] bg-[var(--home-gradient-start)] relative rounded-xl overflow-hidden shadow-lg"
+        className="w-full h-[700px] bg-[var(--home-gradient-start)] rounded-xl overflow-hidden shadow-lg"
         style={{
           backgroundImage: `linear-gradient(to right, var(--home-gradient-start), var(--home-gradient-end)), url('${Profile.src}')`,
           backgroundSize: '100% 200%',
-          backgroundPosition: 'calc(100% + 300px) 20%',
+          backgroundPosition: 'calc(100% + 400px) 25%',
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <Header />
         <Hero />
       </section>
       <section id='about'>
