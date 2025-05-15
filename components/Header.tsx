@@ -25,7 +25,7 @@ const Header = () => {
             isScrolled
                 ? "fixed top-0 right-1/2 translate-x-1/2 w-fit bg-[var(--card)]/10 shadow-lg rounded-lg z-50 justify-center"
                 : "fixed top-6 right-1/2 translate-x-1/2 w-fit sm:w-[80%] bg-[var(--card)]/10 shadow-lg rounded-lg justify-between"
-            } flex items-center p-4 transition-all duration-300`}
+            } flex items-center p-4 animate-slide-in-left transition-all duration-300`}
         >
             <Code2  className={`${isScrolled ? 'hidden' : 'hidden sm:block'} text-[var(--primary)] animate-fade-in size-15`} />
             <ul className="flex space-x-10 text-[var(--foreground)] text-lg font-medium">

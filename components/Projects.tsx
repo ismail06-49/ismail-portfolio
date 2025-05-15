@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import Landing from '@/public/landing-page.png'
+import Landing from '@/public/landing-page.png';
 
 const Projects = () => {
     return (

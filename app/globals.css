@@ -138,6 +138,77 @@
       transform: translateX(-100%);
     }
   }
+
+  --animate-loading: loading 2s linear 1;
+  @keyframes loading {
+    0% {
+      visibility: visible
+    }
+    20% {
+      transform: rotate(0deg);
+    }
+    80% {
+      transform: rotate(-180deg);
+    }
+    90% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, -100%, 0);
+      visibility: hidden;
+    }
+  }
+
+  --animate-slide-in-left: slide-in-left 4s linear 1;
+  @keyframes slide-in-left {
+    0% {
+      visibility: hidden;
+      transform: translate3d(-190%, 0, 0);
+      z-index: 2;
+    }40% {
+      visibility: visible;
+      transform: translate3d(-190%, 0, 0);
+      z-index: 2;
+    }
+    80% {
+      transform: translate3d(10%, 0, 0);
+      z-index: 2;
+    }
+    90% {
+      transform: translate3d(-10%, 0, 0);
+      z-index: 2;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+      z-index: 2;
+    }
+  }
+
+  --animate-slide-in-right: slide-in-right 4s linear 1;
+  @keyframes slide-in-right {
+    0% {
+      visibility: hidden;
+      transform: translate3d(150%, 0, 0);
+      z-index: 1;
+    }40% {
+      visibility: visible;
+      transform: translate3d(150%, 0, 0);
+      z-index: 1;
+    }
+    80% {
+      transform: translate3d(-10%, 0, 0);
+      z-index: 1;
+    }
+    
+    90% {
+      transform: translate3d(10%, 0, 0);
+      z-index: 2;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+      z-index: 1;
+    }
+  }
 }
 
 @layer base {
