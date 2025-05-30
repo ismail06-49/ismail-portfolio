@@ -29,13 +29,6 @@ export default function Home() {
       <section id='about' className='animate-slide-in-left'>
         <About />
       </section>
-      {/* <section className="bg-[var(--card)] text-[var(--card-foreground)] rounded-xl shadow p-6">
-        <h2 className="text-xl font-semibold text-[var(--accent)]">Projects</h2>
-        <ul className="mt-4 list-disc list-inside space-y-2">
-          <li><strong>NightPharm</strong> – Night-shift pharmacy app with real-time data</li>
-          <li><strong>CraftHub</strong> – Artisan marketplace using Next.js & Tailwind</li>
-        </ul>
-      </section> */}
       <section id='projects' className='animate-slide-in-right'>
         <Projects />
       </section>

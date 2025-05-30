@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import { Code2, FolderCode, House, Info, Mail, Settings2 } from "lucide-react"
-import Link from "next/link"
+import { Code2, FolderCode, House, Info, Mail, Settings2 } from "lucide-react";
+import Link from "next/link";
 
 const Header = () => {
 
