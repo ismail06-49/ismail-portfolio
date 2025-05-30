@@ -18,10 +18,7 @@ export default function Home() {
         id='home'
         className="w-full h-[700px] bg-[var(--home-gradient-start)] rounded-xl overflow-hidden shadow-lg animate-slide-in-right"
         style={{
-          backgroundImage: `linear-gradient(to right, var(--home-gradient-start), var(--home-gradient-end)), url('${Profile.src}')`,
-          backgroundSize: '100% 200%',
-          backgroundPosition: 'calc(100% + 400px) 25%',
-          backgroundRepeat: 'no-repeat',
+          backgroundImage: `linear-gradient(to right, var(--home-gradient-start), var(--home-gradient-end)), url('${Profile.src}')`
         }}
       >
         <Hero />

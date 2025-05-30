@@ -139,6 +139,33 @@
     }
   }
 
+  --animate-scrollSm: scrollSm 9s linear infinite;
+  @keyframes scrollSm {
+    0% {
+      display: none;
+      top: 0;
+      left: 0;
+    }
+    10% {
+      display: block;
+    }
+    40% {
+      top: 100%;
+      left: 0%;
+      transform: translate(0%, -100%);
+    }
+    70% {
+      top: 100%;
+      left: 100%;
+      transform: translate(-100%, -100%);
+    }
+    100% {
+      top: 0;
+      left: 100%;
+      transform: translateX(-100%);
+    }
+  }
+
   --animate-loading: loading 2s linear 1;
   @keyframes loading {
     0% {
@@ -217,5 +244,17 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  #home {
+    background-size: 100% 200%;
+    background-position: calc(100% + 400px) 25%;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 1023px) {
+    #home {
+      background-size: cover !important;
+      background-position: center !important;
+    }
   }
 }
