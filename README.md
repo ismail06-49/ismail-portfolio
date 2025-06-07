@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ismail Haddad – Personal Portfolio
 
-## Getting Started
+A modern, responsive portfolio website to showcase my work, skills, and experience as a front-end developer. Built with Next.js and Tailwind CSS, this site features smooth animations, dark mode, and an engaging user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/) – React framework for production-grade web apps
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Lucide React](https://lucide.dev/) – Icon library
+- [React Icons](https://react-icons.github.io/react-icons/) – Technology icons
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe JavaScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- **Responsive Design:** Looks great on all devices, from mobile to desktop.
+- **Dark Mode:** Toggle between light and dark themes for comfortable viewing.
+- **Smooth Navigation:** Animated transitions and sticky navigation for a seamless experience.
+- **Animated Skills & Projects:** Interactive skills section and project showcase with smooth animations.
+- **Downloadable CV:** Easily download my latest resume.
+- **Contact Section:** Quick links to email, LinkedIn, and GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Running the Project Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/ismail-portfolio.git
+   cd ismail-portfolio
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000) to view the site.
+
+---
+
+## 🌐 Deployment
+
+This portfolio is deployed and publicly available at:
+
+[https://ismail-portfolio-five.vercel.app/](https://ismail-portfolio-five.vercel.app/)
+
+---
+
+## 👤 About Me
+
+Hi, I'm **Ismail Haddad**, a passionate front-end developer specializing in React, Next.js, and Tailwind CSS. I love building beautiful, performant web applications and continuously learning new technologies.  
+Feel free to explore my projects, download my CV, or get in touch!
+
+- **Email:** your.email@example.com
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [github.com/your-username](https://github.com/your-username)
+
+---
+
+Thank you for visiting my portfolio!
